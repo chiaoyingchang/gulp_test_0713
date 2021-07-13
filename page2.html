@@ -8,14 +8,35 @@
     <link rel="stylesheet" href="../app/assets/style/all.scss">
 </head>
 <body>
+<p>
     git init # 若已經初始化過就可以不用輸入
 git add .
 git commit -m "first commit"
 git remote add origin [GitHub Repositories Url]
 git push -u origin master // 僅限第一次輸入，往後只需要輸入 git push
 
+
 若您是使用 Windows 電腦，以下細節還請留意：
 git commit -m "first commit"，請打成雙引號，而非影片的單引號
 執行完 git push -u origin master 時，系統可能會問你要選擇 1. Web Browser 2. Personal access token 供使用者選擇，還請選擇 1。
+
+gulp build
+gulp deploy
+
+</p>
+<p>
+    <!-- 同一個檔案夾  -->
+    重新開機之後 cmd-cd 檔案路徑-gulp
+    <!-- 重新建立gulp環境  改完檔案後-->
+    ctrl+c 
+    <!-- 先取消gulp讀取 -->
+    gulp build
+    gulp deploy
+</p>
+
+<!-- git remote add origin https://github.com/chiaoyingchang/gulp_test_0713.git -->
+<!-- https://github.com/chiaoyingchang/gulp_test_0713.git -->
+
 </body>
+
 </html>
